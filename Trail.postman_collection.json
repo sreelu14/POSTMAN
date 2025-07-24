@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d6c54636-8697-4feb-bbc2-03de40e7c15c",
+		"name": "Trail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24653330",
+		"_collection_link": "https://testing-3226.postman.co/workspace/Learning~4fb3be1d-4c41-43e6-b10c-dac5bb8eb2b8/collection/24653330-d6c54636-8697-4feb-bbc2-03de40e7c15c?action=share&source=collection_link&creator=24653330"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "reqres-free-v1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://reqres.in/api/users/2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
